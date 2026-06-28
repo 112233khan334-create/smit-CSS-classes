@@ -1,0 +1,7 @@
+/* background - image,  backgound-repeat,background-attachment ,background-size,  backgroundposition, backgroun-color*/
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;back
+    background-image: url(../);
+}
