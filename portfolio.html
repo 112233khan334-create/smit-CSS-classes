@@ -4,19 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
+    <style>
+      html{
+        background-color: aquamarine;
+        
+      }</style>
   </head>
   <body>
-    <h1>Welcome To My Portfolio</h1>
-    <!-- its my nevgation portion -->
+     <!-- its my nevgation portion -->
+   
     <nav>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Skill</a>
-      <a href="">Project</a>
+      <a href="#Home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skill">Skill</a>
+      <a href="#project">Project</a>
       <a href="">Multmedia</a>
       <a href="">FAQ</a>
       <a href="">Contact</a>
+      <a href="#login">login</a>
+      <a href="#signup">sign up</a>
     </nav>
+
+
+    <h1>Welcome To My Portfolio</h1>
+   
     <!-- image portion remain i will do it after sometime -->
     <img src="/image.png" alt="my picture" height="150" width="150" />
 
@@ -30,7 +41,7 @@
     </ol>
 
     <h3>My Skill</h3>
-    <ul>
+    <ul id="skill">
       <li>HTML</li>
       <li>CSS</li>
       <li>JavaScript</li>
@@ -68,7 +79,7 @@
 
     <!-- table portion -->
     <h3>Project table</h3>
-    <table border="2">
+    <table border="2" id="project">
       <caption>
         My Web developmennt Project
       </caption>
@@ -114,9 +125,10 @@
       </tbody>
     </table>
     <br /><br />
+    <hr>
     <br />
     <label for="form">Contact Form</label>
-    <form action="">
+    <form action="" id="login">
       <label for="name">Name</label>
       <input type="text" name="" id="" placeholder="enter full name" /><br />
       <label for="email">Email</label>
@@ -151,5 +163,36 @@
       <button>Submit</button>
       <button type="reset">Reset</button>
     </form>
+<hr>
+     <form action="" id="signup">
+      <h3>sign up</h3>
+      <label for="">Enter Email</label>
+      <input type="email" name="" id="" placeholder="enetr your email"><br>
+      <label for="">Password</label> 
+      <input type="password" placeholder="enter password">
+     </form>
+
+<hr>
+    <section id="Home">
+      <article>
+          <h1>Home</h1>
+        Hi My name is <strong>Saad Khilji</strong> . I am student of Fata University.
+        Now Learning <strong>Web developmennt</strong> in SMIT<STrong></STrong>
+      </article>
+    </section>
+    <hr>
+
+     <section id="about">
+      <h1>About</h1>
+      <article>
+        I am  <strong>Saad Khilji</strong>, a web development based in 
+        Peshawar KPK.  <br>
+        I started learning <strong>HTML</strong>and <strong>CSS</strong>
+        through SMIT classes. <br>
+        I enjoy turning ideas into clean , resposive Websites and I am 
+        currently focused on mastering CSS ,git and github and also JavaScript.
+ 
+      </article>
+     </section>
   </body>
 </html>
